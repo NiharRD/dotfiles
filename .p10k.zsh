@@ -224,7 +224,7 @@
   # Replace removed segment suffixes with this symbol.
   typeset -g POWERLEVEL9K_SHORTEN_DELIMITER=
   # Color of the shortened directory segments.
-  typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND='220'
+  typeset -g POWERLEVEL9K_DIR_SHORTENED_FOREGROUND='226'
   # Color of the anchor directory segments. Anchor segments are never shortened. The first
   # segment is always an anchor.
   typeset -g POWERLEVEL9K_DIR_ANCHOR_FOREGROUND='226'
@@ -354,12 +354,28 @@
   # typeset -g POWERLEVEL9K_DIR_PREFIX='in '
 
   #####################################[ vcs: git status ]######################################
-  # Version control background colors.
-  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND='236'
+  
+   # Version control background colors.
+  typeset -g POWERLEVEL9K_VCS_CLEAN_BACKGROUND='226'
   typeset -g POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='226'
   typeset -g POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='226'
-  typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND=3
-  typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND=8
+  typeset -g POWERLEVEL9K_VCS_CONFLICTED_BACKGROUND='226'
+  typeset -g POWERLEVEL9K_VCS_LOADING_BACKGROUND='226'
+
+  # Version control foreground colors.
+  typeset -g POWERLEVEL9K_VCS_CLEAN_FOREGROUND='0'
+  typeset -g POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='0'
+  typeset -g POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND='0'
+  typeset -g POWERLEVEL9K_VCS_CONFLICTED_FOREGROUND='0'
+  typeset -g POWERLEVEL9K_VCS_LOADING_FOREGROUND='0'
+
+
+
+
+
+
+
+
 
   # Branch icon. Set this parameter to '\UE0A0 ' for the popular Powerline branch icon.
   typeset -g POWERLEVEL9K_VCS_BRANCH_ICON='\uF126 '
@@ -548,7 +564,7 @@
   ###################[ command_execution_time: duration of the last command ]###################
   # Execution time color.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND=0
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND=3
+  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='226'
   # Show duration of the last command if takes at least this many seconds.
   typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=3
   # Show this many fractional digits. Zero means round to seconds.
