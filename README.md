@@ -1,4 +1,4 @@
-# 💻 Dotfiles
+# Dotfiles
 
 > *Finally recreated my old terminal look after my old laptop died. Lesson learned: always keep backups! T_T*
 
