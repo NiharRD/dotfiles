@@ -1,6 +1,6 @@
 # Dotfiles
 
-> *Finally recreated my old terminal look after my old laptop died. Lesson learned: always keep backups! T_T*
+> *Finally recreated my old terminal look after my old laptop died. Should have taken its backups! T_T*
 
  My personal dotfiles repository. This is where I back up my custom Zsh and Powerlevel10k configurations so my terminal environment is always just a quick clone away.
 
